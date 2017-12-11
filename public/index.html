@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8'>
+    <title>Clicky Clicky</title>
+    <link rel='stylesheet' href="assets/style.css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-2.2.3.js" integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4=" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="jumbotron">
+      <h1><center>Clicky Game!!!<center></h1>
+      <h3><center>Click on an image to earn points, but don't click on any more than once!<center></h3>
+    </div>
+
+    <table class='menu'>
+      <tr>
+        <td colspan='2'>
+          <h1>Click the button</h1>
+        </td>
+      </tr>
+      <tr>
+        <td colspan='2'>
+          <button id='start-button'>Start the Game!</button>
+        </td>
+      </tr>
+      <tr>
+        <td class='label'>Best:</td>
+        <td id='best-result' class='result'>0</td>
+      </tr>
+      <tr>
+        <td class='label'>Time:</td>
+        <td id='time-result' class='result'>0</td>
+      </tr>
+    </table>
+    <script type='text/javascript' src='server.js'></script>
+  </body>
+</html>
